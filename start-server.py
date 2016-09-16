@@ -71,7 +71,7 @@ shutil.rmtree(temp_dir)
 # make webpage
 print ("Creating web page...")
 mod_data = []
-f_in = open("mod-list.txt","r")
+f_in = open(local_dir+"/mod-list.txt","r")
 for row in f_in:
 	cells = row.split("\t")
 	if(len(cells) >= 4):
